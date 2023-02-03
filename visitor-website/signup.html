@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>My Space | signup Page</title>
+
+    <meta name="description" content="My Space | signup Page">
+
+    <meta name="subject" content="My Space | Home Page">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <!-- flatpickr css   -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+    <!-- intlTelInput css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/css/intlTelInput.css" integrity="sha512-gxWow8Mo6q6pLa1XH/CcH8JyiSDEtiwJV78E+D+QP0EVasFs8wKXq16G8CLD4CJ2SnonHr4Lm/yY2fSI2+cbmw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon"  href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/img/flags.png">
+
+    <link rel="stylesheet" href="assets/css/main.css">
+
+
+
+</head>
+
+<body>
+
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="logoBox" href="index.html">My Space</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navBarCollapse" aria-controls="navBarCollapse"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- collapse -->
+                    <div class="collapse navbar-collapse" id="navBarCollapse">
+                        <ul class="navbar-nav mb-lg-0">
+                            <li class="nav-item">
+                                <a href="#about" class="nav-link">من نحن</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#services" class="nav-link">خدماتنا</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#contactUs" class="nav-link">تواصل معنا</a>
+                            </li>
+                        </ul>
+                        <div class="cta-wrapper">
+                            <a href="login.html" class="outline-button" > تسجيل الدخول</a>
+                            <a href="signup.html" class="primary-button">انشاء حساب</a>
+                        </div>
+                    </div>
+
+                </div>
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!--  signup  -->
+    <section id="signup">
+        <div class="container">
+            <div class="signup-card">
+                <h2 class="featured signup-title mb-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60.862" height="48.689" viewBox="0 0 76.077 60.862 ">
+                        <path id="user-plus-svgrepo-com"
+                              d="M74.175,24.725H66.568V17.117a1.908,1.908,0,0,0-1.9-1.9h-3.8a1.908,1.908,0,0,0-1.9,1.9v7.608H51.352a1.908,1.908,0,0,0-1.9,1.9v3.8a1.908,1.908,0,0,0,1.9,1.9H58.96v7.608a1.908,1.908,0,0,0,1.9,1.9h3.8a1.908,1.908,0,0,0,1.9-1.9V32.333h7.608a1.908,1.908,0,0,0,1.9-1.9v-3.8A1.908,1.908,0,0,0,74.175,24.725ZM26.627,30.431A15.215,15.215,0,1,0,11.412,15.215,15.214,15.214,0,0,0,26.627,30.431Zm10.651,3.8H35.293a20.692,20.692,0,0,1-17.331,0H15.976A15.98,15.98,0,0,0,0,50.211v4.945a5.707,5.707,0,0,0,5.706,5.706H47.548a5.707,5.707,0,0,0,5.706-5.706V50.211A15.98,15.98,0,0,0,37.278,34.235Z"/>
+                    </svg>
+                    إنشاء حساب جديد
+                </h2>
+                <form class="row g-3">
+                    <div class="col-md-6 col-sm-12">
+                        <label for="name" class="form-label">الاسم كامل</label>
+                        <input type="email" class="form-control" id="name">
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <label for="company" class="form-label">اسم الشركه</label>
+                        <input type="text" class="form-control" id="company">
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <label for="username" class="form-label">اسم المستخدم</label>
+                        <input type="email" class="form-control" id="username">
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <label for="email" class="form-label">البريد الالكتروني</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <label for="field" class="form-label">نشاطك التجارى</label>
+                        <select class="form-select " id="field" aria-label=".form-select-lg example" >
+                            <option value="0">البرمجه</option>
+                            <option value="1">الشبكات</option>
+                            <option value="2">الطب</option>
+                            <option value="3">الصيدله</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-6 col-sm-12">
+                        <label for="phone" class="form-label">رقم الهاتف</label>
+                        <div class="tel-wrap w-100">
+                            <input type="tel" class="form-control phone-input" inputmode="tel" id="phone">
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-12">
+                        <label for="date" class="form-label">تاريخ الميلاد</label>
+                        <div class="date-wrap w-100">
+
+                            <input type="text" id="date" class="form-control date-input" placeholder="اختر تاريخ الميلاد">
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <label for="gender" class="form-label">الحنس</label>
+                        <select class="form-select " id="gender" aria-label=".form-select-lg example" >
+                            <option value="0">انثى</option>
+                            <option value="1">ذكر</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <label for="password" class="form-label">كلمة المرور</label>
+                        <input type="password" class="form-control" id="password">
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <label for="confirmpassword" class="form-label">تأكيد كلمة المرور</label>
+                        <input type="password" class="form-control mb-2" id="confirmpassword">
+                    </div>
+                    <div class="col-12 ">
+                        <a href="login.html" type="submit" class="primary-button d-block w-100 mt-3">انشاء حساب</a>
+                    </div>
+
+                </form>
+                <p class="signup-subtitle">لديك حساب؟</p>
+                <a href="login.html" class="link-button">انتقل لصفحة تسجيل الدخول</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!--  footer  -->
+    <footer id="footer">
+        <p>  جميع الحقوق محفوظة 2022 my place @</p>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ==============================================
+        Vendor Scripts
+        =============================================== -->
+    <script src="assets/js/vendor/jquery.min.js"></script>
+    <script src="assets/js/vendor/jquery.easing.min.js"></script>
+    <script src="assets/js/vendor/jquery.inview.min.js"></script>
+    <script src="assets/js/vendor/popper.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/vendor/ponyfill.min.js"></script>
+    <script src="assets/js/vendor/slider.min.js"></script>
+    <script src="assets/js/vendor/animation.min.js"></script>
+    <script src="assets/js/vendor/bricklayer.min.js"></script>
+    <!-- jquery js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha512-k2WPPrSgRFI6cTaHHhJdc8kAXaRM4JBFEDo1pPGGlYiOyv4vnA0Pp0G5XMYYxgAPmtmv/IIaQA6n5fLAyJaFMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- flatpickr js  -->
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+    <!-- intlTelInput js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/js/intlTelInput.min.js" integrity="sha512-+gShyB8GWoOiXNwOlBaYXdLTiZt10Iy6xjACGadpqMs20aJOoh+PJt3bwUVA6Cefe7yF7vblX6QwyXZiVwTWGg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="assets/js/main.js"></script>
+
+<script>
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();
+});
+</script>
+</body>
+
+</html>

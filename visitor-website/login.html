@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>My Space | Login Page</title>
+
+    <meta name="description" content="My Space | Home Page">
+    <meta name="subject" content="My Space | Home Page">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/slider.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/vendor/icons.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/animation.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/gallery.min.css">
+
+
+</head>
+
+<body>
+
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="logoBox" href="index.html">My Space</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navBarCollapse" aria-controls="navBarCollapse"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- collapse -->
+                    <div class="collapse navbar-collapse" id="navBarCollapse">
+                        <ul class="navbar-nav mb-lg-0">
+                            <li class="nav-item">
+                                <a href="#about" class="nav-link">من نحن</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#services" class="nav-link">خدماتنا</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#contactUs" class="nav-link">تواصل معنا</a>
+                            </li>
+                        </ul>
+                        <div class="cta-wrapper">
+                            <a href="login.html" class="outline-button" > تسجيل الدخول</a>
+                            <a href="signup.html" class="primary-button">انشاء حساب</a>
+                        </div>
+                    </div>
+
+                </div>
+            </nav>
+
+        </div>
+
+    </header>
+    <!--  login  -->
+    <section id="login">
+        <div class="container">
+            <div class="login-card">
+                <h2 class="featured login-title mb-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="49.705" height="49.705" viewBox="0 0 49.705 49.705">
+                        <path id="signin-svgrepo-com" d="M23.941,1H50.705V50.705H23.941V46.882H46.882V4.823H23.941ZM27.2,13.03,39.973,25.8,27.257,39.575l-2.81-2.593,8.509-9.218H1V23.941H32.708L24.5,15.734Z" transform="translate(-1 -1)" fill-rule="evenodd"/>
+                    </svg>
+
+                    تسجيل الدخول
+                </h2>
+                <form class="row g-3">
+                    <div class="col-12">
+                        <label for="name" class="form-label">البريد الإلكتروني أو إسم المستخدم </label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+
+                    <div class="col-12">
+                        <label for="password" class="form-label">كلمة المرور</label>
+                        <input type="password" class="form-control" id="password">
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                تذكرني
+                            </label>
+                        </div>
+                        <div>
+                            <a href="restorepassword.html" class="link-button">نسيت كلمة المرور؟</a>
+                        </div>
+
+                    </div>
+                    <div class="col-12 ">
+                        <a href="index.html" type="submit" class="primary-button d-block w-100 mt-3">تسجيل الدخول</a>
+                    </div>
+
+                </form>
+                <p class="login-subtitle">ليس لديك حساب؟</p>
+                <a href="signup.html" class="link-button">قم بإنشاء حساب جديد</a>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!--  footer  -->
+    <footer id="footer">
+        <p>  جميع الحقوق محفوظة 2022 my place @</p>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ==============================================
+        Vendor Scripts
+        =============================================== -->
+    <script src="assets/js/vendor/jquery.min.js"></script>
+    <script src="assets/js/vendor/jquery.easing.min.js"></script>
+    <script src="assets/js/vendor/jquery.inview.min.js"></script>
+    <script src="assets/js/vendor/popper.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/vendor/ponyfill.min.js"></script>
+    <script src="assets/js/vendor/slider.min.js"></script>
+    <script src="assets/js/vendor/animation.min.js"></script>
+    <script src="assets/js/vendor/bricklayer.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+<script>
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();
+});
+</script>
+</body>
+
+</html>
